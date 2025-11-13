@@ -6,6 +6,11 @@
       "src": "icons/192temp.png",
       "type": "image/png",
       "sizes": "192x192"
+    },
+    {
+      "src": "icons/512temp.png",
+      "type": "image/png",
+      "sizes": "512x512"
     }
   ],
   "start_url": "https://salmonswim.github.io/restaurant/",
