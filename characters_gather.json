@@ -1,0 +1,13 @@
+{
+    "anabel": [
+        {
+            "name": "Anabel",
+            "baseTimeMult": 0.9
+        }
+    ],
+    "sazanca": [
+        {
+            "name": "Sazanca"
+        }
+    ]
+}

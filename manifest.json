@@ -1,0 +1,14 @@
+{
+  "name": "AE resturant game",
+  "short_name": "AEres",
+  "icons": [
+    {
+      "src": "icons/192temp.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ],
+  "start_url": "/",
+  "display": "fullscreen",
+  "orientation": "landscape"
+}
