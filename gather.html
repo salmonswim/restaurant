@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="manifest" href="manifest.json">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>restau ran</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <link rel="stylesheet" href="style/gather.css">
+    </head>
+    <body>
+        <div class="send" id="send">
+            <div class="column">
+                <h1>Ingredients</h1>
+                <div class="section">
+                    <h2>Select Ingredients</h2>
+                    <div class="ingredbuttons">
+                        <img src="assets/ingredients/test192.png" id="ingred1" oncontextmenu="return false;"> 
+                        <img src="assets/ingredients/none192.png" id="ingred2" oncontextmenu="return false;"> 
+                        <img src="assets/ingredients/none192.png" id="ingred3" oncontextmenu="return false;"> 
+                        <img src="assets/ingredients/test192.png" id="ingred4" oncontextmenu="return false;"> 
+                    </div>
+                </div>
+                <hr>
+                <div id="ingredquantity" class="section">
+                    <h2>Quantity of []:</h2>
+                    <input type="range" id="quantityslider" name="quantityslider" min="1" max="99" value="1">
+                </div>
+            </div>
+        
+            <div class="column">
+                <h1>Character</h1>
+            </div>
+
+            <div class="column">
+                <h1>Preview</h1>
+                <div>
+                    <p>test</p>
+                </div>
+            </div>            
+             
+            <div>
+                <!--character select-->
+            </div>
+        </div>
+
+        <div class="gatherTimers">
+            <h3>current:</h3>
+        </div>
+        
+        <script src="scripts/timers.js" defer></script>
+        <script src="scripts/gather.js" defer></script>
+    </body>
+</html>
